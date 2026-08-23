@@ -133,7 +133,7 @@ def crawl_for_events():
         all_events = _extract_events(chat, crawler.data_store)
         crawler.data_store.clear()
 
-        _store_events(all_events)
+        _store_events(chat, all_events)
 
 
 if __name__ == "__main__":

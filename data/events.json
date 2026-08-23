@@ -1,5 +1,26 @@
 [
     {
+        "title": "Downtown Farmers Market",
+        "description": "A weekly community market featuring locally grown organic produce and handmade crafts. Come support local farmers and artisans from the Östergötland region. Live acoustic music will be playing throughout the afternoon.",
+        "date": "2023-11-18",
+        "time": "10:00",
+        "url": null
+    },
+    {
+        "title": "Annual Linköping Tech Meetup",
+        "description": "A gathering for local software developers to network and share ideas on system architecture. The evening will feature two keynote speakers discussing recent AI advancements. Dinner and drinks will be provided at the venue.",
+        "date": "2023-11-15",
+        "time": "18:00",
+        "url": "https://example.com/techmeetup"
+    },
+    {
+        "title": "Linköping University Festival",
+        "description": "A three-day festival featuring live music performances, art exhibitions, and cultural events celebrating the university's 350th anniversary. The event will also include a cosplay competition and a charity auction.",
+        "date": "2023-10-28",
+        "time": "12: 00",
+        "url": "linkopinguniversity.se/festival"
+    },
+    {
         "title": "Annual Link\u00f6ping Tech Meetup",
         "description": "A gathering for local software developers to network and share ideas on system architecture. The evening will feature two keynote speakers discussing recent AI advancements. Dinner and drinks will be provided at the venue.",
         "date": "2023-11-15",
