@@ -4,6 +4,9 @@ A small, static search engine for local events. No build step, no backend —
 just HTML, CSS, and vanilla JavaScript reading from a JSON file. Built to be
 hosted on GitHub Pages.
 
+[Link to public page](https://wmeijer221.github.io/event-crawler/)
+
+
 ## What it does
 
 - **Overview strip** — total upcoming events, how many are in the next 7 days, and what's next.

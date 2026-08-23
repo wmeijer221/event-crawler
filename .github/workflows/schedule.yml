@@ -1,0 +1,50 @@
+name: Update page content
+
+on:
+  schedule:
+    - cron: '0 2 * * 5'
+
+jobs:
+  scheduled-job:
+    runs-on: ubuntu-latest
+    
+    # Required to allow the GitHub Actions runner to push code back to the repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: uv sync --system
+
+      - name: Run event crawler
+        run: python -m src/event_crawler
+
+      - name: Commit and push changes
+        run: |
+          # Configure Git as the standard GitHub Actions bot
+          git config --global user.name 'event-updater[bot]'
+          git config --global user.email 'event-updater[bot]@fake.email.com'
+          
+          # Stage all changes
+          git add .
+          
+          # Only commit and push if there are actual changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-commit changes from periodic script"
+            git push origin master
+          else
+            echo "No changes to commit."
+          fi
