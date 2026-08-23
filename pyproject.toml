@@ -1,0 +1,24 @@
+[project]
+name = "event-crawler"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "ddgs>=9.15.0",
+    "huggingface-hub>=1.28.0",
+    "llama-cpp-python>=0.3.35",
+    "markdownify>=1.2.3",
+    "ollama>=0.6.2",
+    "python-dotenv>=1.2.3",
+    "regex>=2026.7.19",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+event-crawler = "event_crawler:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
