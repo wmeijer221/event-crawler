@@ -29,6 +29,9 @@ jobs:
       - name: Install dependencies
         run: uv sync --system
 
+      - name: Download llama3.2
+        run: ollama pull llama3.2
+
       - name: Run event crawler
         run: python -m src/event_crawler
 
