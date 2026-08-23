@@ -90,7 +90,7 @@ def _extract_events(chat: ChatToJson, data_store: list[dict]):
         all_events.extend(page_events)
         print(f"Extracted {len(page_events)} events ({d_time}s)")
         print(
-            f'Extracted {len(all_events)} events in total ({sum(all_times)}s; {sum(all_times)/idx}p/s)')
+            f'Extracted {len(all_events)} events in total ({sum(all_times)}s; {sum(all_times)/idx:.2f}s/page)')
     user_prompt = encode_to_markdown_text(all_events)
     all_events = chat.handle(
         user_prompt=user_prompt, system_prompt=SP_DEDUPLICATE_EVENTS)
@@ -122,18 +122,24 @@ def _store_events(chat: ChatToJson, all_new_events: list):
 
 
 def crawl_for_events():
+    start_time = time.time()
+
     with ChatToJson(model='llama3.2') as chat:
         ordered_results = _get_starting_urls(chat)
 
         # Crawls the web.
         seed_urls = [res.href for res in ordered_results]
-        crawler = WebpageToMarkdownCrawler(seed_urls=seed_urls, max_pages=30)
+        crawler = WebpageToMarkdownCrawler(seed_urls=seed_urls, max_pages=255)
         crawler.crawl()
 
         all_events = _extract_events(chat, crawler.data_store)
         crawler.data_store.clear()
 
         _store_events(chat, all_events)
+
+    end_time = time.time()
+    dtime = end_time - start_time
+    print(f'Spent a total of {dtime} seconds (≈{dtime/255}s/page).')
 
 
 if __name__ == "__main__":
