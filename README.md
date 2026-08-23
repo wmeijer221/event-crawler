@@ -1,73 +1,115 @@
-# Events Board
-
-A small, static search engine for local events. No build step, no backend —
-just HTML, CSS, and vanilla JavaScript reading from a JSON file. Built to be
-hosted on GitHub Pages.
+# Event Crawler
 
 [Link to public page](https://wmeijer221.github.io/event-crawler/)
 
+A small project that combines a static events board (frontend) with a Python
+crawler that discovers and extracts event data from the web into
+`data/events.json`.
 
-## What it does
+This repository contains two complementary pieces:
 
-- **Overview strip** — total upcoming events, how many are in the next 7 days, and what's next.
-- **Keyword search** — matches against each event's title and description, with matches highlighted.
-- **Date filtering** — From and To default to today through two weeks out, so the board opens scoped to what's coming up soon. Widen, narrow, or clear either field as needed.
-- **Toggle filters**:
-  - *Include past events* — off by default, so the board opens future-first.
-  - *Only dated events* — off by default, so events without a `date` still show up (sorted to the end of the list, labeled "No date"). Turn it on to hide anything undated.
-  - *Only events with links* — **on** by default, so the board opens showing just events you can click through to. Turn it off to also see events without a `url`.
-- **Detail panel** — click (or press Enter/Space on) any event to open a side panel with the full description and a button to the external event page.
-- **Future-first by default** — only today's and upcoming (dated) events show until you say otherwise.
+- A static frontend (HTML/CSS/JS) that reads `data/events.json` and renders
+  an events board for easy browsing and filtering.
+- A Python-based crawler and extraction pipeline that uses local LLM tooling
+  to find and parse event pages into structured JSON.
 
-## Files
+## Features
 
-```
-index.html          Page structure
-css/style.css        Styling
-js/app.js            Loading, filtering, search, and the detail panel
-data/events.json    Your event data — replace with your own
-```
+- Crawl and extract events from search seed results.
+- Deduplicate and merge new events with an existing `data/events.json`.
+- Simple static frontend for viewing and filtering events.
 
-## Editing your events
+## Requirements
 
-Each event in `data/events.json` is an object with these fields:
+- Python 3.12+
+- Ollama installed and available on your PATH (the crawler starts `ollama serve`).
+- Recommended: create and activate a virtual environment before installing.
 
-| Field         | Required | Notes                                                        |
-|---------------|----------|---------------------------------------------------------------|
-| `title`       | yes      | Shown in the list and detail panel.                            |
-| `date`        | no       | Format `YYYY-MM-DD`. Used for sorting, date filtering, and the "Today / In N days" badge. Omit it (or leave it invalid) for events without a fixed date — they'll still show up unless "Only dated events" is turned on. |
-| `description` | no       | Plain text. Shown as an excerpt in the list, in full in the panel. |
-| `time`        | no       | Free text, e.g. `"18:00"` or `"06:30-18:00"`.                  |
-| `url`         | no       | Link to the event's own page. Use `null` or omit it if there isn't one — just note that "Only events with links" is on by default, so linkless events are hidden until that's switched off. |
+See `pyproject.toml` for Python dependencies and the project console script.
 
-Any extra fields you add (e.g. `location`, `price`, `category`) aren't
-required — they'll automatically show up in a "More details" section of the
-detail panel, labeled with the field name. Events missing a `title` are
-skipped rather than breaking the page.
-
-## Running locally
-
-Opening `index.html` directly by double-clicking it won't work in most
-browsers, because `fetch()` can't load `data/events.json` from a `file://`
-URL. Serve the folder instead, for example:
+## Quick install
 
 ```bash
-cd events-board
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+This installs a console script named `event-crawler` (see `pyproject.toml`).
+
+## Prepare data file
+
+The crawler expects `data/events.json` to exist (it reads the existing list
+to merge new events). If you don't have one yet, create it with an empty
+array:
+
+```bash
+mkdir -p data
+echo "[]" > data/events.json
+```
+
+## Run the crawler
+
+Start `ollama` if it's required by your local LLM setup (see Ollama docs),
+then run:
+
+```bash
+event-crawler
+```
+
+This runs the crawler and writes/updates `data/events.json`.
+
+If you prefer not to install, you can run the package module directly from
+the repository (from the project root with the venv activated):
+
+```bash
+python -m event_crawler
+```
+
+Note: the crawler uses local LLM tooling and web search; review the code in
+`src/event_crawler` to configure search regions, models, or prompts.
+
+## Frontend (static) usage
+
+The static board is in the repository root. To run it locally, serve the
+folder and open the page in your browser:
+
+```bash
 python3 -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`.
+Then visit `http://localhost:8000` and the frontend will load data from
+`data/events.json`.
 
-## Deploying to GitHub Pages
+Files of interest:
 
-1. Push this folder's contents to a GitHub repository (they can sit at the repo root, or in a `/docs` folder).
-2. In the repo, go to **Settings → Pages**.
-3. Under **Build and deployment**, set the source branch and folder (e.g. `main` / `/root` or `main` / `/docs`).
-4. Save — GitHub will give you a URL like `https://<username>.github.io/<repo>/`.
+- [index.html](index.html)
+- [css/style.css](css/style.css)
+- [js/app.js](js/app.js)
+- [data/events.json](data/events.json)
 
-Every time you edit `data/events.json` and push, the live site updates.
+## Data format
 
-## Notes
+Each event in `data/events.json` is an object with fields such as:
 
-- Dates and times are treated as local time in the visitor's browser — there's no timezone field, so keep that in mind if your audience spans multiple timezones.
-- Search is a simple case-insensitive substring match, not fuzzy search — it's intentionally simple for a small, static dataset.
+- `title` (required)
+- `date` (optional, ISO format `YYYY-MM-DD`)
+- `description`, `time`, `url`, plus any additional metadata you want to
+  include.
+
+Extra fields will be shown in the frontend's "More details" section. Events
+missing a `title` are ignored by the frontend.
+
+## Configuration & notes
+
+- The crawler uses `ollama` via the `ollama` Python client and spawns
+  `ollama serve` when running. Ensure Ollama is installed and configured on
+  your machine.
+- The exact model and search configuration are defined in
+  `src/event_crawler/__main__.py` and related modules (`crawler.py`,
+  `chat_to_json.py`, `system_prompts.py`). Tweak those to adjust behavior.
+
+## Contributing
+
+Contributions are welcome. Open issues for bugs or feature requests, and
+send pull requests for changes.
