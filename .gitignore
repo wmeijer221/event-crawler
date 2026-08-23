@@ -1,6 +1,6 @@
 
 # Project-specific ignores
-data
+data/models
 tmp
 tests/external_script_test/
 prof

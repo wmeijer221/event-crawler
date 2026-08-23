@@ -1,0 +1,114 @@
+[
+    {
+        "title": "Annual Link\u00f6ping Tech Meetup",
+        "description": "A gathering for local software developers to network and share ideas on system architecture. The evening will feature two keynote speakers discussing recent AI advancements. Dinner and drinks will be provided at the venue.",
+        "date": "2023-11-15",
+        "time": "18:00",
+        "url": "https://example.com/techmeetup"
+    },
+    {
+        "title": "Downtown Farmers Market",
+        "description": "A weekly community market featuring locally grown organic produce and handmade crafts. Come support local farmers and artisans from the \u00e4sterg\u00f6tland region. Live acoustic music will be playing throughout the afternoon.",
+        "date": "2023-11-18",
+        "time": "10:00",
+        "url": null
+    },
+    {
+        "title": "Link\u00f6pings stadsfest 2026",
+        "description": "En festival i Link\u00f6pings stadsk\u00e4rna, med livemusik, matmarknad, dansbandskv\u00e5llar och familjeaktiviteter. Festen sker under vecka 34, 20-23 augusti, med fri entr\u00e9.",
+        "date": "2026-08-20",
+        "time": "11:00",
+        "url": "https://linkopingsstadsfest.se/"
+    },
+    {
+        "title": "Charlie\u2019s - CLOSING PARTY - 29 AUG - WAHLSTEDT",
+        "description": "A closing party for Charlie\u2019s with music and drinks.",
+        "date": "2026-08-29",
+        "time": "29 aug",
+        "url": "https://secure.tickster.com/sv/bly5uf6u3ngdnzc"
+    },
+    {
+        "title": "Bonfire Festival - 2026",
+        "description": "A music festival with various artists and bands.",
+        "date": "2026-09-04",
+        "time": "4 sep",
+        "url": "https://secure.tickster.com/sv/f0ndyltekjrmj3r"
+    },
+    {
+        "title": "Bastardes & Slaveriet",
+        "description": "A live music event with the band Bastardes & Slaveriet.",
+        "date": "2026-09-04",
+        "time": "4 sep",
+        "url": "https://secure.tickster.com/sv/c0puwfuuel1f2hh"
+    },
+    {
+        "title": "J-POP UP Vol. 3 Link\u00f6ping - MAD JAMIE & GARUDA",
+        "description": "A pop-up event with music and performances.",
+        "date": "2026-09-05",
+        "time": "5 sep",
+        "url": "https://secure.tickster.com/sv/vr2pp2umjtvyvmp"
+    },
+    {
+        "title": "METAL DRAGON FILMVISNING + PARTY",
+        "description": "A movie screening and party event with metal music.",
+        "date": "2026-09-05",
+        "time": "5 sep",
+        "url": "https://secure.tickster.com/sv/ud25ueeexxn7c0b"
+    },
+    {
+        "title": "Rescape och Lo & Behold",
+        "description": "A live music event with the bands Rescape och Lo & Behold.",
+        "date": "2026-09-05",
+        "time": "5 sep",
+        "url": "https://secure.tickster.com/sv/a1auw8tf83p623f"
+    },
+    {
+        "title": "Tant Blomma",
+        "description": "A live music event with the band Tant Blomma.",
+        "date": "2026-09-08",
+        "time": "8 sep",
+        "url": "https://secure.tickster.com/sv/3zmk46nuyuw5l96"
+    },
+    {
+        "title": "COCKNEY REJECTS + BRAND NEW AGE",
+        "description": "A live music event with the bands Cockney Rejects + Brand New Age.",
+        "date": "2026-09-09",
+        "time": "9 sep",
+        "url": "https://secure.tickster.com/sv/pek2w6pydgpkbxu"
+    },
+    {
+        "title": "F\u00f6redrag:Flygande Tunnan en ikon fr\u00e5n Kalla Kriget",
+        "description": "A lecture about the flying crane, an icon from the Cold War era.",
+        "date": "2026-09-10",
+        "time": "10 sep",
+        "url": "https://secure.tickster.com/sv/u8m0wmrkbn7j4kh"
+    },
+    {
+        "title": "Chuck Ragan - Love And Lore Tour",
+        "description": "A live music event with Chuck Ragan.",
+        "date": "2026-09-10",
+        "time": "10 sep",
+        "url": "https://secure.tickster.com/sv/6hzkywr08wc7839"
+    },
+    {
+        "title": "JELLY CRYSTAL \u00d0 11/9 \u00d0 JD \u00e4 \u00d6STERG\u00f6TLANDS MUSEUM",
+        "description": "A live music event with Jelly Crystal.",
+        "date": "2026-09-11",
+        "time": "11 sep",
+        "url": "https://secure.tickster.com/sv/u6p2n0evxmkv7j4"
+    },
+    {
+        "title": "Sarah L. King",
+        "description": "A live music event with Sarah L. King.",
+        "date": "2026-09-11",
+        "time": "11 sep",
+        "url": "https://secure.tickster.com/sv/w3lyeacmkvvvgy8"
+    },
+    {
+        "title": "B EK & MOBERG",
+        "description": "A live music event with the bands BEK & MOBERG.",
+        "date": "2026-09-11",
+        "time": "11 sep",
+        "url": "https://secure.tickster.com/sv/rar50kc5yg36j41"
+    }
+]
