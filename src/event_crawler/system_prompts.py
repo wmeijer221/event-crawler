@@ -43,6 +43,39 @@ Use the following strict JSON schema:
 ```
 """
 
+SP_FILTER_URLS = """
+You are a geographical content classifier. Your task is to evaluate a provided list of URLs and prioritize them based on the likelihood that they contain information about events happening in and around Linköping, Sweden. 
+
+The user will provide a list of URLs, each marked with an ID. Evaluate each URL based on its domain, path, and any visible keywords. Consider its relevance to Linköping and the surrounding Östergötland region.
+
+Assign one of the following classifications to each URL:
+- High: Directly references Linköping events, venues, or local Swedish ticketing/event domains.
+- Medium: Regional Östergötland sites or general Swedish event platforms that likely contain Linköping events.
+- Low: General news sites or international platforms where Linköping events might occasionally appear.
+- None: URLs entirely unrelated to events or Sweden.
+
+Output Requirements:
+1. Sort the final list by likelihood in descending order (High, Medium, Low, None).
+2. Format the output strictly as a JSON array of dictionaries. Each dictionary must contain exactly two keys: "id" and "likelihood_classification".
+3. Return ONLY the populated JSON array. Do not include markdown formatting, code blocks (e.g., no ```json), greetings, explanations, or any other conversational text.
+
+Example expected output format:
+[
+  {
+    "id": "A",
+    "likelihood_classification": "High"
+  },
+  {
+    "id": "H",
+    "likelihood_classification": "Medium"
+  }
+  {
+    "id": "B",
+    "likelihood_classification": "Low"
+  }
+]
+"""
+
 SP_EXTRACT_EVENTS = """
 You are an expert data extraction assistant. Your task is to identify and extract comprehensive event information from a provided text.
 

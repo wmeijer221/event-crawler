@@ -2,6 +2,7 @@ from ddgs.ddgs import DDGS
 from typing import Literal, List, Tuple
 from dataclasses import dataclass
 import time
+import random
 
 
 @dataclass
@@ -20,7 +21,8 @@ def search_and_format(
         safesearch: Literal['on', 'moderate', 'off'],
         max_retries: int
 ) -> Tuple[str, dict[str, DDGResult]]:
-    res = do_ddg_search(query, max_results, region, timelimit, safesearch, max_retries)
+    res = do_ddg_search(query, max_results, region,
+                        timelimit, safesearch, max_retries)
     user_prompt = format_ddg_results_for_llm(res)
     res = {ele.identifier: ele for ele in res}
     return user_prompt, res
@@ -35,8 +37,9 @@ def do_ddg_search(
     max_retries: int
 ) -> list[DDGResult]:
     # Initialize the DuckDuckGo search object
+    results = list()
     with DDGS() as ddgs:
-        for _ in range(max_retries):
+        for i in range(max_retries):
             try:
                 # Perform a text search and limit to 5 results
                 results = ddgs.text(
@@ -48,7 +51,12 @@ def do_ddg_search(
                 )
             except Exception as ex:
                 print(ex)
-                time.sleep(5)
+                sleep_time = min(2 ** i, 60)
+                sleep_time = random.uniform(sleep_time / 2, sleep_time)
+                print(f"Retrying DDG in {sleep_time:.2f} seconds...")
+                time.sleep(sleep_time)
+    if len(results) == 0:
+        raise ValueError(f"Failed to retrieve results for query: {query}")
     parsed_results = [
         DDGResult(
             identifier=_get_letter_identifier(i),
