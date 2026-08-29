@@ -39,7 +39,7 @@ def do_ddg_search(
     # Initialize the DuckDuckGo search object
     results = list()
     with DDGS() as ddgs:
-        for i in range(max_retries):
+        for i in range(1, max_retries + 1):
             try:
                 # Perform a text search and limit to 5 results
                 results = ddgs.text(
@@ -53,7 +53,8 @@ def do_ddg_search(
                 print(ex)
                 sleep_time = min(2 ** i, 60)
                 sleep_time = random.uniform(sleep_time / 2, sleep_time)
-                print(f"Retrying DDG in {sleep_time:.2f} seconds...")
+                sleep_time = max(sleep_time, 2)
+                print(f"Retrying DDG in {int(sleep_time)} seconds ({i + 1}/{max_retries}).")
                 time.sleep(sleep_time)
     if len(results) == 0:
         raise ValueError(f"Failed to retrieve results for query: {query}")

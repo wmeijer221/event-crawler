@@ -1,135 +1,1338 @@
 [
     {
-        "title": "Downtown Farmers Market",
-        "description": "A weekly community market featuring locally grown organic produce and handmade crafts. Come support local farmers and artisans from the Östergötland region. Live acoustic music will be playing throughout the afternoon.",
-        "date": "2023-11-18",
-        "time": "10:00",
-        "url": null
-    },
-    {
-        "title": "Annual Linköping Tech Meetup",
-        "description": "A gathering for local software developers to network and share ideas on system architecture. The evening will feature two keynote speakers discussing recent AI advancements. Dinner and drinks will be provided at the venue.",
-        "date": "2023-11-15",
-        "time": "18:00",
-        "url": "https://example.com/techmeetup"
-    },
-    {
-        "title": "Linköping University Festival",
-        "description": "A three-day festival featuring live music performances, art exhibitions, and cultural events celebrating the university's 350th anniversary. The event will also include a cosplay competition and a charity auction.",
-        "date": "2023-10-28",
-        "time": "12: 00",
-        "url": "linkopinguniversity.se/festival"
-    },
-    {
-        "title": "Annual Link\u00f6ping Tech Meetup",
-        "description": "A gathering for local software developers to network and share ideas on system architecture. The evening will feature two keynote speakers discussing recent AI advancements. Dinner and drinks will be provided at the venue.",
-        "date": "2023-11-15",
-        "time": "18:00",
-        "url": "https://example.com/techmeetup"
-    },
-    {
-        "title": "Downtown Farmers Market",
-        "description": "A weekly community market featuring locally grown organic produce and handmade crafts. Come support local farmers and artisans from the \u00e4sterg\u00f6tland region. Live acoustic music will be playing throughout the afternoon.",
-        "date": "2023-11-18",
-        "time": "10:00",
-        "url": null
-    },
-    {
-        "title": "Link\u00f6pings stadsfest 2026",
-        "description": "En festival i Link\u00f6pings stadsk\u00e4rna, med livemusik, matmarknad, dansbandskv\u00e5llar och familjeaktiviteter. Festen sker under vecka 34, 20-23 augusti, med fri entr\u00e9.",
-        "date": "2026-08-20",
-        "time": "11:00",
-        "url": "https://linkopingsstadsfest.se/"
-    },
-    {
-        "title": "Charlie\u2019s - CLOSING PARTY - 29 AUG - WAHLSTEDT",
-        "description": "A closing party for Charlie\u2019s with music and drinks.",
+        "title": "Farmer's market",
+        "description": "A harvest festival every time! Imagine a classic market square. The air is filled with exciting scents of freshly baked bread and fresh vegetables. Among the market stalls, customers are bustling, shopping and talking with local producers about cultivation and breeding. You stroll around in a sea of colors and get to taste local specialties that are otherwise hard to find, and the goods at the market are the freshest you can get! Take the opportunity to have a coffee. Since 2001, you can find the Farmer’s Market at the Yttre BorggÃ¥rden in LinkÃ¶ping. During nine autumn Saturdays every year, starting in August. A unique market – the wide range of local products, the friendly atmosphere, and the selection that follows the seasons make the market special, but we also have two rules that make us unique. One rule means that the producer you buy from must have grown or raised what is sold at the market. The same applies to the main ingredient in processed food, such as jam or sausage. The second rule states that the goods must be locally produced, which means that the farms must be within a distance of 250 km from the market. Welcome!",
         "date": "2026-08-29",
-        "time": "29 aug",
-        "url": "https://secure.tickster.com/sv/bly5uf6u3ngdnzc"
+        "time": "09:30 – 14:00",
+        "location": "BorggÃ¥rden",
+        "url": "https://visitlinkoping.se/en/events/farmers-market-2/"
     },
     {
-        "title": "Bonfire Festival - 2026",
-        "description": "A music festival with various artists and bands.",
+        "title": "Car boot sale",
+        "description": "",
+        "date": "2026-08-30",
+        "time": "more dates available",
+        "location": "Ljungsbro market",
+        "url": "https://visitlinkoping.se/en/events/farmers-market-2/"
+    },
+    {
+        "title": "Autumn’s ÃstgÃ¶tadagar",
+        "description": "",
+        "date": "2026-09-05",
+        "time": "more dates available",
+        "location": "Autumn’s ÃstgÃ¶tadagar",
+        "url": "https://visitlinkoping.se/en/events/farmers-market-2/"
+    },
+    {
+        "title": "Eat & drink",
+        "description": "A section covering food and beverages.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/events/farmers-market-2/"
+    },
+    {
+        "title": "Activities",
+        "description": "A section covering various activities.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/events/farmers-market-2/"
+    },
+    {
+        "title": "Brewery tour with beer tasting",
+        "description": "Welcome to a unique brewery tour with beer tasting at Vreta kloster bryggeri. Here you not only get to try 7 of their beers along with some light snacks, but it is all intertwined with a story that takes you back to the Middle Ages, nuns, monks, and beer. You get to be a part of the journey from the garage to becoming one of Sweden’s most internationally award-winning breweries.",
+        "date": "29/8",
+        "time": "15:00",
+        "location": "Vreta kloster bryggeri",
+        "url": "https://visitlinkoping.se/en/events/brewery-tour-with-beer-tasting/"
+    },
+    {
+        "title": "Day trip with M/S Wasa Lejon",
+        "description": "Experience one of the most beautiful parts of the Göta canal and be sluiced through a total of nine locks. Choose whether you want to book a one-way trip or a round trip. On board, there is a full bar, cafeteria, and restaurant. All trips must be pre-booked.",
+        "date": "2024-09-05",
+        "time": "10:00",
+        "location": "585+77 Bergs slussar",
+        "url": "https://visitlinkoping.se/en/events/day-trip-with-m-s-wasa-lejon/"
+    },
+    {
+        "title": "Brewery tour with beer tasting",
+        "description": "Discover the brewing process and taste various beers. More dates available.",
+        "date": "2024-08-29",
+        "time": "Saturday",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/day-trip-with-m-s-wasa-lejon/"
+    },
+    {
+        "title": "Day trip with M/S Wasa Lejon",
+        "description": "Experience one of the most beautiful parts of the Göta canal and be sluiced through a total of nine locks. Choose whether you want to book a one-way trip or a round trip. On board, there is a full bar, cafeteria, and restaurant. All trips must be pre-booked.",
+        "date": "2024-08-29",
+        "time": "Saturday",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/day-trip-with-m-s-wasa-lejon/"
+    },
+    {
+        "title": "Saturday lunch with M/S Kind",
+        "description": "Enjoy a meal with M/S Kind on the Göta canal.",
+        "date": "2024-08-29",
+        "time": "Saturday",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/day-trip-with-m-s-wasa-lejon/"
+    },
+    {
+        "title": "Drama: Follow in the footsteps of Tage Danielsson with Linköping’s Guide Club",
+        "description": "Join Linköping’s Guide Club for a drama experience.",
+        "date": "2024-08-29",
+        "time": "Saturday",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/day-trip-with-m-s-wasa-lejon/"
+    },
+    {
+        "title": "Orsa Spelmån, Tina Ahlin & Bengan Janson",
+        "description": "Few groups can shine with such a list of merits – the KaRAMELodikt Prize, the Monica Zetterlund Scholarship, the Tage Danielsson’s Friends Award, the Taube Scholarship, and the Zorn’s Gold Badge. Together, Orsa Spelmån with Tina Ahlin and Bengan Janson form a musical dream team that is now embarking on a highly anticipated Swedish tour in 2026! With their hearts deeply rooted in the Swedish musical treasure, they offer an evening filled with warmth, joyful playing, and masterful interplay. The repertoire is rich in classics and gems from collaborations with greats like Benny Andersson, Hasse Alfredson, Sven-Bertil Taube, Robert Broberg, Allan Edwall, and Olle Adolphson – just to name a few. Welcome to an unforgettable evening where the audience can sing along, laugh, and enjoy musical gems served with humor, heart, and a contagious joy of playing that only this ensemble can deliver!",
+        "date": "2026-08-29",
+        "time": "16:00",
+        "location": "Folkparksteatern, Linköping",
+        "url": "https://visitlinkoping.se/en/events/orsa-spelman-tina-ahlin-bengan-janson/"
+    },
+    {
+        "title": "East Sweden Historic Rally",
+        "description": "International rally competition and a round in the FIA European Historic Rally Championship on Gravel. Some of Europe's top drivers in historic rally cars will compete on gravel roads around Ästergötland. The competition is centered at Saab Arena, where both the service area and HQ are located. The rally offers thrilling motorsport, classic rally cars, and a unique atmosphere – right in the heart of Ästergötland.",
+        "date": "2026-05-08",
+        "time": "09:00",
+        "location": "Saab Arena",
+        "url": "https://visitlinkoping.se/en/events/east-sweden-historic-rally/"
+    },
+    {
+        "title": "Roxen Runt",
+        "description": "Sunday, 30/8, Roxen Runt is a sporting event that will take place in Linköping.",
+        "date": "2026-05-08",
+        "time": "",
+        "location": "Roxen Runt",
+        "url": "https://visitlinkoping.se/en/events/east-sweden-historic-rally/"
+    },
+    {
+        "title": "SDHL: LHC – Färjestad BK",
+        "description": "Thursday, 17/9, SDHL: LHC – Färjestad BK is a sporting event that will take place in Linköping.",
+        "date": "2026-05-08",
+        "time": "",
+        "location": "LHC – Färjestad BK",
+        "url": "https://visitlinkoping.se/en/events/east-sweden-historic-rally/"
+    },
+    {
+        "title": "SHL: LHC – Timrå IK",
+        "description": "Saturday, 19/9, SHL: LHC – Timrå IK is a sporting event that will take place in Linköping.",
+        "date": "2026-05-08",
+        "time": "",
+        "location": "LHC – Timrå IK",
+        "url": "https://visitlinkoping.se/en/events/east-sweden-historic-rally/"
+    },
+    {
+        "title": "Viewing of Ljung Castle",
+        "description": "Welcome to a guided tour of the residential and state apartments at Ljung Castle! Also feel free to visit the large castle kitchen, the laundry room and the Cook’s room where a smaller exhibition is displayed, or check out the summer exhibitions about the castle’s architect “Jean Eric Rehn – industrial designer and jack of all trades” and “Folklore and the year’s holidays”. Swing by the Castle Store to finish with a cup of coffee with pastries in CafÃ© Fersen or in the park at the back of the castle.",
+        "date": "2024-08-29",
+        "time": "13:30",
+        "location": "Ljungs slott",
+        "url": "https://visitlinkoping.se/en/events/viewing-of-ljung-castle-2/"
+    },
+    {
+        "title": "Sidestep, No Saving Grace, Viggen, Bitter and xSerenityx",
+        "description": "Hardcore music event at Skylten from Gothenburg, Västerås and Linköping. Don’t miss an action-packed evening with live music!",
+        "date": "29/8",
+        "time": "17:00",
+        "location": "Skylten",
+        "url": "https://visitlinkoping.se/en/events/sidestep-no-saving-grace-viggen-bitter-and-xserenityx/"
+    },
+    {
+        "title": "Metal Dragon – Screening + Afterparty",
+        "description": "",
+        "date": "2026-05-09",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/sidestep-no-saving-grace-viggen-bitter-and-xserenityx/"
+    },
+    {
+        "title": "Apocalypse Orchestra – Platens Bar",
+        "description": "",
+        "date": "24/9",
+        "time": "",
+        "location": "Platens Bar",
+        "url": "https://visitlinkoping.se/en/events/sidestep-no-saving-grace-viggen-bitter-and-xserenityx/"
+    },
+    {
+        "title": "Andy and the Rockets at Platens Bar",
+        "description": "",
+        "date": "25/9",
+        "time": "",
+        "location": "Platens Bar",
+        "url": "https://visitlinkoping.se/en/events/sidestep-no-saving-grace-viggen-bitter-and-xserenityx/"
+    },
+    {
+        "title": "Asian restaurant",
+        "description": "Asian restaurant with influences from all corners of the world. Award-winning restaurant in Linköping.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/eat-drink/"
+    },
+    {
+        "title": "European restaurant",
+        "description": "European restaurant with a cozy study & hangout spot in Linköping. Perfect for families.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/eat-drink/"
+    },
+    {
+        "title": "Steakhouse",
+        "description": "Steakhouse with a lively dance floor in Linköping. Great for those who want a party atmosphere.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/eat-drink/"
+    },
+    {
+        "title": "Swedish restaurant",
+        "description": "Swedish restaurant with a great beer selection in Linköping. Perfect for those who want to try local produce.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/eat-drink/"
+    },
+    {
+        "title": "Bar",
+        "description": "Bar with a lively night life in Linköping. Perfect for those who want to party.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/eat-drink/"
+    },
+    {
+        "title": "Pubs",
+        "description": "Pubs with a cozy atmosphere in Linköping. Great for those who want to relax and have a drink.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/eat-drink/"
+    },
+    {
+        "title": "Wine in LinkÃ¶ping",
+        "description": "Wine in LinkÃ¶ping is a music festival that will take place on multiple dates. More information can be found on the website.",
+        "date": "2023-10-09",
+        "time": "20:00",
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/linkoping-concert-congress/"
+    },
+    {
+        "title": "Per Andersson – Kardborreshowen",
+        "description": "Per Andersson will be performing at the theater with a Kardborreshowen concert.",
+        "date": "2023-10-17",
+        "time": "20:00",
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/linkoping-concert-congress/"
+    },
+    {
+        "title": "Mikkey Dee With Friends Playing MOTÃRHEAD Classics",
+        "description": "Mikkey Dee will be performing with friends playing MOTÃRHEAD Classics at the concert.",
+        "date": "2023-10-24",
+        "time": "20:00",
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/linkoping-concert-congress/"
+    },
+    {
+        "title": "HippHipp Live!",
+        "description": "HippHipp will be performing at the theater on multiple dates.",
+        "date": "2023-11-12",
+        "time": "20:00",
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/linkoping-concert-congress/"
+    },
+    {
+        "title": "Logga in",
+        "description": "Logga in till kulturen",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/ForgotPassword"
+    },
+    {
+        "title": "Återställ lösenord",
+        "description": "Återställ lösenordet för ditt konto genom att skicka ett mail med instruktioner",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/ForgotPassword"
+    },
+    {
+        "title": "Eldningsförbud i hela Õstergötland",
+        "description": "Eldningsförbud som ³rkar gålla fråm och med den 11 augusti klockan 15.00 och tills vidare.",
+        "date": "2026-08-11",
+        "time": "15:00",
+        "location": "hela Õstergötland",
+        "url": "https://www.linkoping.se/uppleva-och-gora/evenemang-i-linkoping"
+    },
+    {
+        "title": "# Evenemang i Linköping",
+        "description": "Besök museer och konsthallar, gö på konserter och utstöllningar - allt finns samlat i Övningemangskalendern.",
+        "date": "null",
+        "time": "null",
+        "location": "Linköping",
+        "url": "https://www.linkoping.se/uppleva-och-gora/evenemang-i-linkoping"
+    },
+    {
+        "title": "Diyari Mahmoud – Come on, grow up!",
+        "description": "Diyari Mahmoud invites the audience on a crazy journey through all parts of life. From the happy (but not always so secure) childhood where a boy, besides playing football, sometimes also doubles as the family’s electrical tester. “Jalla, vÃ¤x upp” is the sequel to Diyari Mahmoud’s acclaimed debut show “Lagom Halal” and is Diyari’s way of trying to understand his present time.",
+        "date": "2023-09-18",
+        "time": "19:00",
+        "location": "Linköping Konsert & Kongress",
+        "url": "https://visitlinkoping.se/en/events/diyari-mahmoud-come-on-grow-up-2/"
+    },
+    {
+        "title": "Theater and entertainment Game Over – A Comedic Grief Work",
+        "description": "Game Over – A Comedic Grief Work is a theater performance that combines comedy and grief. The show is a unique experience that explores the complexities of grief and how it affects people. It is a must-see event for anyone looking for a unique and emotional experience.",
+        "date": "19/9",
+        "time": "Saturday, 19/9",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/diyari-mahmoud-come-on-grow-up-2/"
+    },
+    {
+        "title": "Theater and entertainment Magnus Betnér – “Between Us”",
+        "description": "Magnus Betnér is a Swedish singer-songwriter known for his soulful voice and energetic performances. His show “Between Us” is a highly anticipated event that promises to be a night to remember. The performance features a mix of original songs and covers, showcasing Betnér's impressive vocal range.",
+        "date": "2026-02-10",
+        "time": "Friday, 2/10",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/diyari-mahmoud-come-on-grow-up-2/"
+    },
+    {
+        "title": "Theater and entertainment Per Andersson – Kardborreshowen",
+        "description": "Per Andersson is a Swedish musician and singer known for his powerful voice and energetic live performances. His show Kardborreshowen is a highly anticipated event that promises to be a night to remember. The performance features a mix of original songs and covers, showcasing Andersson's impressive vocal range.",
+        "date": "17/10",
+        "time": "Saturday, 17/10",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/diyari-mahmoud-come-on-grow-up-2/"
+    },
+    {
+        "title": "Theater and entertainment Salt Splash & Smuggled Spirits tour",
+        "description": "Salt Splash & Smuggled Spirits tour is a highly anticipated event that promises to be a night to remember. The performance features a mix of original songs and covers, showcasing the band's impressive vocal range and energetic live performances.",
+        "date": "31/10",
+        "time": "Saturday, 31/10",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/diyari-mahmoud-come-on-grow-up-2/"
+    },
+    {
+        "title": "Eldningsförbud i hela Östergötland",
+        "description": "Eldningsförbud utfärdat i länet, börjar gälla från och med den 11 augusti klockan 15.00 och tills vidare.",
+        "date": "2026-08-11",
+        "time": "15:00",
+        "location": "NULL",
+        "url": "https://www.linkoping.se/om-webbplatsen/kakor-pa-linkoping.se"
+    },
+    {
+        "title": "Linköpings Slott och Domkyrkomuseum Från biskopsborg och kungligt slott till landshövdingeresidens",
+        "description": "För Åk3-9, Gymnasie Åk1-3 2021-12-01 till 2027-06-01 Bokningsbart fr¥n 2021-12-01",
+        "date": "2021-12-01",
+        "time": "2021-12-01",
+        "location": "Linköpings Slott och Domkyrkomuseum",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Linköpings Slott och Domkyrkomuseum Från asatro till protestantism",
+        "description": "För Åk6-9, Gymnasie Åk1-3 2022-12-01 till 2027-06-01 Bokningsbart fr¥n 2022-12-01",
+        "date": "2022-12-01",
+        "time": "2022-12-01",
+        "location": "Linköpings Slott och Domkyrkomuseum",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Linköpings Slott och Domkyrkomuseum Minstingar",
+        "description": "För 5 År, F-klass, Åk1-3 2025-06-01 till 2027-06-01 Bokningsbart fr¥n 2025-06-01",
+        "date": "2025-06-01",
+        "time": "2025-06-01",
+        "location": "Linköpings Slott och Domkyrkomuseum",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Linköpings Slott och Domkyrkomuseum Barn under medeltiden",
+        "description": "För F-klass, Åk1-6 2025-06-01 till 2027-06-01 Bokningsbart fr¥n 2025-06-01",
+        "date": "2025-06-01",
+        "time": "2025-06-01",
+        "location": "Linköpings Slott och Domkyrkomuseum",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Östergötlands Museum Bergsgraven - en grav från stenåldern",
+        "description": "För Åk3-9 2026-06-01 till 2026-12-31 Bokningsbart fr¥n 2026-06-01",
+        "date": "2026-06-01",
+        "time": "2026-06-01",
+        "location": "Östergötlands Museum",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Östergötlands Museum Sinnen och känslor",
+        "description": "För Åk3-9, Anpassad skola 2026-06-01 till 2026-12-31 Bokningsbart fr¥n 2026-06-01",
+        "date": "2026-06-01",
+        "time": "2026-06-01",
+        "location": "Östergötlands Museum",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Skapande Skola Skulptera med nät och fiberbetong",
+        "description": "För Åk5-9 2026-06-01 till 2026-09-01 Bokningsbart fr¥n 2026-06-01",
+        "date": "2026-06-01",
+        "time": "2026-06-01",
+        "location": "Skapande Skola",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Kulturgaranti Linköping Vår version av Tarzan & Jane",
+        "description": "För 3-5 År, F-klass, Åk1 2026-06-01 till 2026-09-01 Bokningsbart fr¥n 2026-06-01",
+        "date": "2026-06-01",
+        "time": "2026-06-01",
+        "location": "Kulturgaranti Linköping",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Kulturgaranti Linköping I fablernas vörd",
+        "description": "För F-klass, Åk1-3 2026-06-01 till 2026-09-01 Bokningsbart fr¥n 2026-06-01",
+        "date": "2026-06-01",
+        "time": "2026-06-01",
+        "location": "Kulturgaranti Linköping",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Kulturgaranti Linköping Minas resa",
+        "description": "För Åk1-6 2026-06-01 till 2026-09-01 Bokningsbart fr¥n 2026-06-01",
+        "date": "2026-06-01",
+        "time": "2026-06-01",
+        "location": "Kulturgaranti Linköping",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Skapande Skola Dramaäventyr / Processdrama",
+        "description": "För F-klass, Åk1-6, Anpassad skola 2026-06-01 till 2026-09-01 Bokningsbart fr¥n 2026-06-01",
+        "date": "2026-06-01",
+        "time": "2026-06-01",
+        "location": "Skapande Skola",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Best in Show",
+        "description": "F-klass, Åk1-9, Gymnasie Åk1-3",
+        "date": "2026-06-01 till 2026-12-31",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Vem ska trösta Knyttet?",
+        "description": "Fôr 4-5 år, F-klass, Åk1-2",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Musen Märta och dockan Marcho bygger bo",
+        "description": "Fôr 1-5 år",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Det farligaste som finns",
+        "description": "Fôr Äk4-9",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Överraskningskonsert",
+        "description": "Fôr Åk1-9",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Vem behöver en vån?",
+        "description": "Fôr 3-5 år, F-klass, Åk1",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Kotten",
+        "description": "Fôr 2-5 år",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Robin Hood",
+        "description": "Fôr 4-5 år, F-klass, Åk1",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Den røda ballongen",
+        "description": "Fôr 3-5 år",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Konsert med tema psykisk hålsa/ohålsa",
+        "description": "Fôr Åk1-9",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Jakten på den försunta musikskatten-",
+        "description": "Fôr Åk1-6",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Pettson och Findus firar jul",
+        "description": "Fôr 4-5 år, F-klass, Åk1-3",
+        "date": "2026-06-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Musikens magi",
+        "description": "Fôr Anpassad skola",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Loppan HoppeFia",
+        "description": "Fôr 1-3 år",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Barnmusik med Ola & Stefan",
+        "description": "Fôr 2-5 år, Anpassad skola",
+        "date": "2026-06-01 till 2026-09-01",
+        "time": "Bokningsbart från 2026-06-01",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Östergötlands Museum Best in Show För F-klass, Åk1-9, Gymnasie Åk1-3",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Kulturgaranti Linköping Vem ska trösta Knyttet? - Teater Pelikanen För 4-5 µr, F-klass, åk1-2",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Kulturgaranti Linköping Ut i det blå - Teater Pelikanen För 2-5 µr",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "LasseMajas Deckarhus Låsupplevelse (2026/2027) För 5 µr, F-klass",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-24",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "LasseMajas Deckarhus Deckarskrivande/ Skrivworkshop (2026/2027) För åk1-2",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-24",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Gamla Linköping Visning: Byggnadshistoria För Gymnasie åk1-4, Anpassad skola",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-08-10",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Gamla Linköping Visning: Från egnahem till miljonprogram För åk7-9, Anpassad skola",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-08-10",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Gamla Linköping Visning: Djurvisning För 2-5 µr, F-klass, åk1",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-08-10",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Efter Stormen - Dan Larsson För 3-5 µr",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-08-11",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Upplev natur—titta, lyssna, smaka, känn För 5 µr, F-klass, åk1-9, Anpassad grundskola, Anpassad gymnasieskola",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-02",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "När Mumbo Jumbo blev jättestor För F-klass, Åk1-3",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Bert sabbar allt För Åk6-9",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Handbok för superhjältar För Åk1-5",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Tidsresa: Gammaldags skoldag För Åk1-4",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Bygg och flyg För F-klass, Åk1-9",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Hur låter en tomat? - Teater MO För 2-5 µr",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "The Mountain För Åk4-7",
+        "description": "Example description used only to demonstrate JSON formatting.",
+        "date": "2026-06-01",
+        "time": "23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Marianne och Jag - Apocalyptic Circus",
+        "description": "För 5 år, F-klass, Åk1-6",
+        "date": "2026-10-23",
+        "time": "2026-10-23",
+        "location": "Kulturgaranti",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Skolbio Lovbio: Zootropolis 2",
+        "description": "För F-klass, Åk1-4, Fritidshem",
+        "date": "2026-10-27",
+        "time": "2026-10-27",
+        "location": "Kulturgaranti",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "DO AS I SAY - Bobbi Lo Produktion",
+        "description": "För Åk7-9",
+        "date": "2026-11-12",
+        "time": "2026-11-13",
+        "location": "Kulturgaranti",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Gamla Linköping Visning: Svenska jultraditioner förr och nu",
+        "description": "För Åk7-9, Anpassad skola",
+        "date": "2026-11-23",
+        "time": "2026-12-17",
+        "location": "Kulturgaranti",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Julshow - Östgötamusiken (Saga)",
+        "description": "För 4-5 år, F-klass, Åk1-3",
+        "date": "2026-11-30",
+        "time": "2026-12-01",
+        "location": "Kulturgaranti",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Julshow - Östgötamusiken (Agora)",
+        "description": "För 4-5 år, F-klass, Åk1-3",
+        "date": "2026-12-04",
+        "time": "2026-12-04",
+        "location": "Kulturgaranti",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Kultur- och fritidsförvaltningen Kom igång med Kulturportalen!",
+        "description": "För 1-5 år, F-klass, Åk1-9, Anpassad skola, Fritidshem",
+        "date": "null",
+        "time": "null",
+        "location": "Ung Scen Öst",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Ung Scen Öst Spit Take",
+        "description": "För Åk7-9",
+        "date": "null",
+        "time": "null",
+        "location": "Ung Scen Öst",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Ung Scen Öst Bäpplet",
+        "description": "För Åk1-2",
+        "date": "null",
+        "time": "null",
+        "location": "Ung Scen Öst",
+        "url": "https://kulturportalen.linkoping.se/Schedule/Events"
+    },
+    {
+        "title": "Brewery tour with beer tasting",
+        "description": "Brewery tour with beer tasting * Saturday, 29/8, more dates available * Vreta Kloster Bryggeri * From: 425 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Vreta Kloster Bryggeri",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Day trip with M/S Wasa Lejon",
+        "description": "Day trip with M/S Wasa Lejon * Saturday, 29/8 * Bergs slussar * From: 665 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Bergs slussar",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Saturday lunch with M/S Kind",
+        "description": "Saturday lunch with M/S Kind * Saturday, 29/8 * Tullbron * From: 475 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Tullbron",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Orsa Spelmån, Tina Ahlin & Bengan Janson",
+        "description": "Orsa Spelmån, Tina Ahlin & Bengan Janson * Saturday, 29/8 * Folkparksteatern * From: 475 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Folkparksteatern",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Kajsa Grytt",
+        "description": "Kajsa Grytt * Saturday, 29/8 * Vreta kloster bryggeri * 273 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Vreta kloster bryggeri",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "East Sweden Historic Rally",
+        "description": "East Sweden Historic Rally * Saturday, 29/8 * Saab Arena",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Saab Arena",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Farmer’s market",
+        "description": "Farmer’s market * Saturday, 29/8, more dates available * Borggården",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Borggården",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Drama: Follow in the footsteps of Tage Danielsson with Linköping’s Guide Club",
+        "description": "Drama: Follow in the footsteps of Tage Danielsson with Linköping’s Guide Club * Saturday, 29/8 * Forumteatern, ägatan 55 * From: 50 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Forumteatern, ägatan 55",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Moveat Limited Old Linköping",
+        "description": "Moveat Limited Old Linköping * Saturday, 29/8 * Gästgivaregatan 1, Linköping * 459 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Gästgivaregatan 1, Linköping",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Viewing of Ljung Castle",
+        "description": "Viewing of Ljung Castle * Saturday, 29/8, more dates available * Ljungs slott * 150 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Ljungs slott",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Sidestep, No Saving Grace, Viggen, Bitter and xSerenityx",
+        "description": "Sidestep, No Saving Grace, Viggen, Bitter and xSerenityx * Saturday, 29/8 * Skylten * Ticket purchased at the door. From: 30 SEK",
+        "date": "2023-08-29",
+        "time": "23:59",
+        "location": "Skylten",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Roxen Runt",
+        "description": "Roxen Runt * Sunday, 30/8 * Saab Arena * From: 450 SEK",
+        "date": "2023-08-30",
+        "time": "23:59",
+        "location": "Saab Arena",
+        "url": "https://visitlinkoping.se/en/event/"
+    },
+    {
+        "title": "Saturday lunch with M/S Kind",
+        "description": "Lovely late summer cruise – Saturday lunch on Stånngån/Kinda Kanal. Departure from Linköping’s canal quarter/Tullbron, into central Linköping, turning before the ferry bridge, under Tullbron, past SAAB arena, Stångebro with Linköping’s history since bygone times, Tekniska Verken in Nykvarn, lock descent in Nykvarns lock, through the canal section past Linköping’s marina, out through the mouth to Roxen. Turns on Roxen’s water mirror, back lock ascent Nykvarns lock to Linköping’s Canal quarter/Tullbron. Food and drinks are ordered on board. Dep. at 11.00 return approx. at 14.00. Welcome on board from 10.30.",
+        "date": "2026-08-29",
+        "time": "11:00",
+        "location": "Tullbron, Linköping",
+        "url": "https://visitlinkoping.se/en/events/saturday-lunch-with-m-s-kind/"
+    },
+    {
+        "title": "Brewery tour with beer tasting",
+        "description": "",
+        "date": "2026-08-29",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/saturday-lunch-with-m-s-kind/"
+    },
+    {
+        "title": "Day trip with M/S Wasa Lejon",
+        "description": "",
+        "date": "2026-08-29",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/saturday-lunch-with-m-s-kind/"
+    },
+    {
+        "title": "Drama: Follow in the footsteps of Tage Danielsson with Linköping’s Guide Club",
+        "description": "",
+        "date": "2026-08-29",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/saturday-lunch-with-m-s-kind/"
+    },
+    {
+        "title": "Drama: Follow in the footsteps of Tage Danielsson with Linköping’s Guide Club",
+        "description": "Guided dramatized tour with Linköping’s guide club. Follow in Tage Danielsson’s footsteps and meet people in his life; mother Elsa, Hatte Furuhagen, teacher Nils Fischerström, wife Märta-Stina, and Hasse Alfredsson. We visit places in Linköping associated with Tage’s life.",
+        "date": "2024-08-29",
+        "time": "14:00",
+        "location": "Forumteatern, Ågatan 55",
+        "url": "https://visitlinkoping.se/en/events/drama-follow-in-the-footsteps-of-tage-danielsson-with-linkopings-guide-club/"
+    },
+    {
+        "title": "Life at the Cemetery (drama) with Linköping’s Guide Club",
+        "description": "",
+        "date": "2024-09-01",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/drama-follow-in-the-footsteps-of-tage-danielsson-with-linkopings-guide-club/"
+    },
+    {
+        "title": "Classic city center walk with Linköping’s Guide Club",
+        "description": "",
+        "date": "2024-09-02",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/drama-follow-in-the-footsteps-of-tage-danielsson-with-linkopings-guide-club/"
+    },
+    {
+        "title": "Medieval city walk with Linköping’s guide club",
+        "description": "",
+        "date": "2024-09-09",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/drama-follow-in-the-footsteps-of-tage-danielsson-with-linkopings-guide-club/"
+    },
+    {
+        "title": "Wine",
+        "description": "En lördag med vingårdarna i Linköping. Upptäck nya smaker och hitta er nya favoritrestaurang p¥ denna matvandring även övän µrebro.",
+        "date": "2026-09-26",
+        "time": "Slutsålt",
+        "location": "Linköping",
+        "url": "https://se.moveat.co/event/linkoping-gamla-linkoping-2026-08-29"
+    },
+    {
+        "title": "Original",
+        "description": "En vardag med mat äventyr i Linköping. Redo att smaka dig genom Linköping p¥ din egen tempo.",
+        "date": "2026-11-14",
+        "time": "Slutsålt",
+        "location": "Linköping",
+        "url": "https://se.moveat.co/event/linkoping-gamla-linkoping-2026-08-29"
+    },
+    {
+        "title": "Roxen Runt",
+        "description": "The scenic cycling race around a comfortably sized lake! In 2026, the 36th edition of Roxen Runt will be held. The beautiful race, measuring just under 100 km, takes you around the scenic lake Roxen. You can choose between two different classes depending on what you want to get out of the race: Do you want to challenge yourself and see how quickly you can make it around? Then the **timing class** is the class for you. Do you want to take the opportunity to enjoy and be pampered at a couple of cafÃ©s? Then the **experience class** is your class. Leave the car at home! Keep in mind that you can often walk, cycle, or use public transport to your event experience in LinkÃ¶ping. Visit [ostgotatrafiken.se](https://www.ostgotatrafiken.se/?utm_source=Evenemang&utm_campaign=Visitlinkoping.se&utm_medium=AccordionLink1) for information about public transport! It is also often convenient to get to other parts of the municipality using public transport, see [ostgotatrafiken.se](https://www.ostgotatrafiken.se/?utm_source=Evenemang&utm_campaign=Visitlinkoping.se&utm_medium=AccordionLink2) for travel information. **When you arrive by train in LinkÃ¶ping** From LinkÃ¶ping’s Travel Center, most buses depart to get further within the municipality. From LinkÃ¶ping’s travel center, it’s just a short walk to the city! **Tips!** Check out LinkÃ¶ping’s cycling map! [Here you will find LinkÃ¶ping’s cycling map](https://kartor.linkoping.se/portal/apps/sites/#/kartportalen/apps/4801a69172e64d39b42084a516afe5db/explore) ## Find your way to Saab Arena ## You might also like",
+        "date": "30/8",
+        "time": "09:30",
+        "location": "Saab Arena",
+        "url": "https://visitlinkoping.se/en/events/roxen-runt/"
+    },
+    {
+        "title": "Linköping's activities",
+        "description": "Pick and choose among Linköping’s activities! How about bowling, mysteries, or climbing to new heights? ",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://visitlinkoping.se/en/see-do/activities/"
+    },
+    {
+        "title": "Bonfire 2026",
+        "description": "Festivals",
         "date": "2026-09-04",
-        "time": "4 sep",
-        "url": "https://secure.tickster.com/sv/f0ndyltekjrmj3r"
+        "time": "Friday, 23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://visitlinkoping.se/en/saab-arena/"
     },
     {
-        "title": "Bastardes & Slaveriet",
-        "description": "A live music event with the band Bastardes & Slaveriet.",
+        "title": "LHC – Frölunda HC",
+        "description": "Sport",
+        "date": "2026-10-15",
+        "time": "Thursday, 23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://visitlinkoping.se/en/saab-arena/"
+    },
+    {
+        "title": "Lars Winnerbäck – Autumn 2026",
+        "description": "Music",
+        "date": "2026-10-23",
+        "time": "Friday, 23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://visitlinkoping.se/en/saab-arena/"
+    },
+    {
+        "title": "Benjamin Ingrosso – What Happens Next?",
+        "description": "Music",
+        "date": "2026-10-31",
+        "time": "Saturday, 23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://visitlinkoping.se/en/saab-arena/"
+    },
+    {
+        "title": "SABATON – The Great Sweden Tour",
+        "description": "Music",
+        "date": "2026-02-13",
+        "time": "Saturday, 23:59",
+        "location": "NULL_ISLAND_TEST_LOCATION",
+        "url": "https://visitlinkoping.se/en/saab-arena/"
+    },
+    {
+        "title": "Logga in",
+        "description": "Sjåll fylla i följande fålt med din information",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/Register"
+    },
+    {
+        "title": "Nytt konto",
+        "description": "Skapa ett nytt konto följande fålt med din information",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/Register"
+    },
+    {
+        "title": "Återställ lösenord",
+        "description": "Återställ ditt lösenord följande fålt med ditt namn och e-postadress",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/Register"
+    },
+    {
+        "title": "Samtycke till uppgiftslagring",
+        "description": "Sjåll du godköra att din information lagras i systemet",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/Register"
+    },
+    {
+        "title": "Bonfire 2026",
+        "description": "Bonfire 2026 is a music festival held in Linköping, featuring Lars Winnerbäck, Benjamin Ingrosso, and SABATON.",
         "date": "2026-09-04",
-        "time": "4 sep",
-        "url": "https://secure.tickster.com/sv/c0puwfuuel1f2hh"
+        "time": "TBD",
+        "location": "TBD",
+        "url": "https://visitlinkoping.se/en/"
     },
     {
-        "title": "J-POP UP Vol. 3 Link\u00f6ping - MAD JAMIE & GARUDA",
-        "description": "A pop-up event with music and performances.",
+        "title": "Lars Winnerbäck – Autumn 2026",
+        "description": "Lars Winnerbäck is a music concert held in Linköping, featuring Lars Winnerbäck.",
+        "date": "2026-10-23",
+        "time": "TBD",
+        "location": "TBD",
+        "url": "https://visitlinkoping.se/en/"
+    },
+    {
+        "title": "Benjamin Ingrosso – What Happens Next?",
+        "description": "Benjamin Ingrosso is a music concert held in Linköping, featuring Benjamin Ingrosso.",
+        "date": "2026-10-31",
+        "time": "TBD",
+        "location": "TBD",
+        "url": "https://visitlinkoping.se/en/"
+    },
+    {
+        "title": "SABATON – The Great Sweden Tour",
+        "description": "SABATON is a music concert held in Linköping, featuring SABATON.",
+        "date": "2026-02-13",
+        "time": "TBD",
+        "location": "TBD",
+        "url": "https://visitlinkoping.se/en/"
+    },
+    {
+        "title": "Music Orsa Spelmännen, Tina Ahlin & Bengan Janson",
+        "description": "Orsa Spelmännen, Tina Ahlin & Bengan Janson",
+        "date": "2026-09-29",
+        "time": "Saturday, 29/8",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
+    },
+    {
+        "title": "Kajsa Grytt",
+        "description": "Kajsa Grytt",
+        "date": "2026-09-29",
+        "time": "Saturday, 29/8",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
+    },
+    {
+        "title": "Sidestep, No Saving Grace, Viggen, Bitter and xSerenityx",
+        "description": "Sidestep, No Saving Grace, Viggen, Bitter and xSerenityx",
+        "date": "2026-09-29",
+        "time": "Saturday, 29/8",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
+    },
+    {
+        "title": "Bonfire 2026",
+        "description": "Bonfire 2026",
+        "date": "2026-09-04",
+        "time": "Friday, 4/9, more dates available",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
+    },
+    {
+        "title": "Mad Jamie & Garuda",
+        "description": "Mad Jamie & Garuda",
         "date": "2026-09-05",
-        "time": "5 sep",
-        "url": "https://secure.tickster.com/sv/vr2pp2umjtvyvmp"
+        "time": "Saturday, 5/9",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
     },
     {
-        "title": "METAL DRAGON FILMVISNING + PARTY",
-        "description": "A movie screening and party event with metal music.",
-        "date": "2026-09-05",
-        "time": "5 sep",
-        "url": "https://secure.tickster.com/sv/ud25ueeexxn7c0b"
-    },
-    {
-        "title": "Rescape och Lo & Behold",
-        "description": "A live music event with the bands Rescape och Lo & Behold.",
-        "date": "2026-09-05",
-        "time": "5 sep",
-        "url": "https://secure.tickster.com/sv/a1auw8tf83p623f"
-    },
-    {
-        "title": "Tant Blomma",
-        "description": "A live music event with the band Tant Blomma.",
-        "date": "2026-09-08",
-        "time": "8 sep",
-        "url": "https://secure.tickster.com/sv/3zmk46nuyuw5l96"
-    },
-    {
-        "title": "COCKNEY REJECTS + BRAND NEW AGE",
-        "description": "A live music event with the bands Cockney Rejects + Brand New Age.",
+        "title": "Cockney Rejects",
+        "description": "Cockney Rejects",
         "date": "2026-09-09",
-        "time": "9 sep",
-        "url": "https://secure.tickster.com/sv/pek2w6pydgpkbxu"
+        "time": "Wednesday, 9/9",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
     },
     {
-        "title": "F\u00f6redrag:Flygande Tunnan en ikon fr\u00e5n Kalla Kriget",
-        "description": "A lecture about the flying crane, an icon from the Cold War era.",
+        "title": "Chuck Ragan",
+        "description": "Chuck Ragan",
         "date": "2026-09-10",
-        "time": "10 sep",
-        "url": "https://secure.tickster.com/sv/u8m0wmrkbn7j4kh"
+        "time": "Thursday, 10/9",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
     },
     {
-        "title": "Chuck Ragan - Love And Lore Tour",
-        "description": "A live music event with Chuck Ragan.",
-        "date": "2026-09-10",
-        "time": "10 sep",
-        "url": "https://secure.tickster.com/sv/6hzkywr08wc7839"
-    },
-    {
-        "title": "JELLY CRYSTAL \u00d0 11/9 \u00d0 JD \u00e4 \u00d6STERG\u00f6TLANDS MUSEUM",
-        "description": "A live music event with Jelly Crystal.",
+        "title": "Jelly Crystal",
+        "description": "Jelly Crystal",
         "date": "2026-09-11",
-        "time": "11 sep",
-        "url": "https://secure.tickster.com/sv/u6p2n0evxmkv7j4"
+        "time": "Friday, 11/9",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
     },
     {
-        "title": "Sarah L. King",
-        "description": "A live music event with Sarah L. King.",
-        "date": "2026-09-11",
-        "time": "11 sep",
-        "url": "https://secure.tickster.com/sv/w3lyeacmkvvvgy8"
+        "title": "Ebbot",
+        "description": "Ebbot",
+        "date": "2026-09-12",
+        "time": "Saturday, 12/9",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
     },
     {
-        "title": "B EK & MOBERG",
-        "description": "A live music event with the bands BEK & MOBERG.",
-        "date": "2026-09-11",
-        "time": "11 sep",
-        "url": "https://secure.tickster.com/sv/rar50kc5yg36j41"
+        "title": "Old Linköping FolkFestival",
+        "description": "Old Linköping FolkFestival",
+        "date": "2026-09-12",
+        "time": "Saturday, 12/9",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
+    },
+    {
+        "title": "Dunderjorden presents: PHANTOM BAY, NOWHERES, MOTIVE & USELESS EFFORT",
+        "description": "Dunderjorden presents: PHANTOM BAY, NOWHERES, MOTIVE & USELESS EFFORT",
+        "date": "2026-09-13",
+        "time": "Sunday, 13/9",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
+    },
+    {
+        "title": "Dunderfest at Skylten",
+        "description": "Dunderfest at Skylten",
+        "date": "2026-10-02",
+        "time": "Friday, 2/10",
+        "location": "NULL",
+        "url": "https://visitlinkoping.se/en/see-do/experience-linkoping/linkopings-concert-summer/"
+    },
+    {
+        "title": "Boka MS Kind",
+        "description": "Kontakta oss med din bokning eller använd vårt bokningssystem för att boka direkt online. Vi finns ombord i samband med kryssningar men kan ha svårt att svara ibland när vi har mycket att göra, i de fallen vidarekopplas samtalet automatiskt till kontoret i Ljungsbro.",
+        "date": null,
+        "time": "Tillgänglighet på telefonsvarare",
+        "location": "Kontoret i Ljungsbro, Kontor Rederi AB Kind",
+        "url": "https://www.rederiabkind.se/boka/"
+    },
+    {
+        "title": "Boka MS Kind via telefon",
+        "description": "Ring MS Kind direkt: 070 - 638 02 30",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://www.rederiabkind.se/boka/"
+    },
+    {
+        "title": "Boka MS Kind via e-post",
+        "description": "Skicka oss ett e-postmeddelande till kind@rederiabkind.se med namn, antal personer, telefonnummer och dag och resan du vill åka.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://www.rederiabkind.se/boka/"
+    },
+    {
+        "title": "Kajsa Grytt",
+        "description": "Intimate performance with Kajsa Grytt, one of the country’s most significant rock artists ever. Kajsa is also the country’s uncrowned “punk queen” alongside “punk king” ThÃ¥strÃ¶m.",
+        "date": "29/8",
+        "time": "19:00",
+        "location": "Vreta kloster bryggeri",
+        "url": "https://visitlinkoping.se/en/events/kajsa-grytt/"
+    },
+    {
+        "title": "Orsa SpelmÃ¤n, Tina Ahlin & Bengan Janson",
+        "description": "",
+        "date": "29/8",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/kajsa-grytt/"
+    },
+    {
+        "title": "Sidestep, No Saving Grace, Viggen, Bitter and xSerenityx",
+        "description": "",
+        "date": "29/8",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/kajsa-grytt/"
+    },
+    {
+        "title": "Concert with Documenti d’Amore",
+        "description": "",
+        "date": "30/8",
+        "time": "",
+        "location": "",
+        "url": "https://visitlinkoping.se/en/events/kajsa-grytt/"
+    },
+    {
+        "title": "Event",
+        "description": "Evenemang hos Linköpings guideklubb på https://www.nortic.se/ticket/organizer/2465",
+        "date": null,
+        "time": null,
+        "location": "Linköpings guideklubb",
+        "url": "https://www.nortic.se/ticket/show/330114"
+    },
+    {
+        "title": "Moveat Limited Old Linköping",
+        "description": "Welcome to Moveat Limited in Old Linköping – a fun and tasty way to socialize. Discover Old Linköping through food and drink and explore the area’s cafes and eateries together with friends, family, or a date during a warm late summer evening.",
+        "date": "2026-08-29",
+        "time": "16:00 – 21:00",
+        "location": "Gästgivaregatan 1, Linköping",
+        "url": "https://visitlinkoping.se/en/events/moveat-limited-old-linkoping/"
+    },
+    {
+        "title": "Brewery tour with beer tasting",
+        "description": "Guided tour and tasting of craft beers at various brewery stops in Old Linköping.",
+        "date": "2026-08-29",
+        "time": "more dates available",
+        "location": "Old Linköping",
+        "url": "https://visitlinkoping.se/en/events/moveat-limited-old-linkoping/"
+    },
+    {
+        "title": "Day trip with M/S Wasa Lejon",
+        "description": "Guided tour and boat ride on the Lake Vättern with M/S Wasa Lejon.",
+        "date": "2026-08-29",
+        "time": "more dates available",
+        "location": "Old Linköping",
+        "url": "https://visitlinkoping.se/en/events/moveat-limited-old-linkoping/"
+    },
+    {
+        "title": "Saturday lunch with M/S Kind",
+        "description": "Guided tour and meal at M/S Kind on the Lake Vättern.",
+        "date": "2026-08-29",
+        "time": "more dates available",
+        "location": "Old Linköping",
+        "url": "https://visitlinkoping.se/en/events/moveat-limited-old-linkoping/"
+    },
+    {
+        "title": "Orsa Spelmän, Tina Ahlin & Bengan Janson",
+        "description": "Live music performance by Orsa Spelmän, Tina Ahlin, and Bengan Janson.",
+        "date": "2026-08-29",
+        "time": "more dates available",
+        "location": "Old Linköping",
+        "url": "https://visitlinkoping.se/en/events/moveat-limited-old-linkoping/"
+    },
+    {
+        "title": "Camping & cabins",
+        "description": "Unique accommodations in LinkÃ¶ping, including camping and cabins.",
+        "date": null,
+        "time": null,
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/accommodation/"
+    },
+    {
+        "title": "Hotels, B&Bs & hostels",
+        "description": "A wide range of hotels, hostels, and Bed & Breakfast in LinkÃ¶ping.",
+        "date": null,
+        "time": null,
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/accommodation/"
+    },
+    {
+        "title": "Bed & breakfast",
+        "description": "Various Bed & Breakfast options in LinkÃ¶ping.",
+        "date": null,
+        "time": null,
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/accommodation/"
+    },
+    {
+        "title": "CafÃés",
+        "description": "CafÃs in LinkÃ¶ping for a quick bite or coffee.",
+        "date": null,
+        "time": null,
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/accommodation/"
+    },
+    {
+        "title": "CampingStugor",
+        "description": "Camping and cabin options in LinkÃ¶ping.",
+        "date": null,
+        "time": null,
+        "location": "LinkÃ¶ping",
+        "url": "https://visitlinkoping.se/en/accommodation/"
+    },
+    {
+        "title": "Eldningsförbud i Östergötland",
+        "description": "Eldningsförbudet innebär att det är förbjudet att elda och grilla utomhus med fast bränsle, det vill säga ved, kol, briketter, gräs, ris, grenar och liknande. Detta gäller i skog och mark eller då det finns risk att eld lätt kan spridas vidare i terrängen.",
+        "date": "2026-08-11",
+        "time": "15:00",
+        "location": "Hela Östergötland",
+        "url": "https://www.linkoping.se/aktuellt/aktuellt/2026-08-11-eldningsforbud-utfardat-i-hela-ostergotland"
+    },
+    {
+        "title": "Logga in",
+        "description": "Sidan för loggning in till konto.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/LogIn"
+    },
+    {
+        "title": "Nytt konto",
+        "description": "Sidan för registrering av nytt konto.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/LogIn"
+    },
+    {
+        "title": "Återställ lösenord",
+        "description": "Sidan för återställning av lösenord.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/LogIn"
+    },
+    {
+        "title": "Jag har glömt mitt lösenord",
+        "description": "Sidan för återställning av lösenord.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/LogIn"
+    },
+    {
+        "title": "Registrera nytt konto",
+        "description": "Sida för registrering av nytt konto.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/LogIn"
+    },
+    {
+        "title": "Fortsätt utan att logga in",
+        "description": "Sida för förskonande från loggning in.",
+        "date": null,
+        "time": null,
+        "location": null,
+        "url": "https://kulturportalen.linkoping.se/Access/LogIn"
     }
 ]

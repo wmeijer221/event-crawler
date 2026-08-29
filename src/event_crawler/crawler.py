@@ -4,19 +4,35 @@ from urllib.parse import urljoin
 from collections import deque
 import time
 from markdownify import markdownify as md
+import threading
+from typing import Any
+from dataclasses import dataclass
+from urllib.parse import urlparse, urlunparse
+import regex as re
 
+@dataclass
+class CrawlEntry:
+    url: str
+    title: str
+    content: str
 
 class WebpageToMarkdownCrawler:
     def __init__(self, seed_urls, max_pages=15):
         # 1. Initialize the URL Frontier
         self.frontier = deque(seed_urls)
         # 2. Track visited URLs to prevent duplicates and loops
-        self.visited = set(seed_urls)
-        self.max_pages = max_pages
-        self.data_store = list()
+        self.visited: set[str] = set(seed_urls)
+        self.max_pages: int = max_pages
+        self.data_store: list[CrawlEntry] = list()
+        self._lock = threading.Lock()
 
-    def crawl(self):
+    def crawl(self) -> list[CrawlEntry]:
+        with self._lock:
+            return self._crawl()
+
+    def _crawl(self) -> list[CrawlEntry]:
         pages_crawled = 0
+        new_entries = list()
 
         while self.frontier and pages_crawled < self.max_pages:
             # Grab the next URL from the front of the queue
@@ -54,12 +70,20 @@ class WebpageToMarkdownCrawler:
                         page_markdown = md(
                             str(body), heading_style="ATX").strip()
 
-                    self.data_store.append(
-                        {"url": current_url, "title": page_title, "content": page_markdown})
+                        img_pat = r'!\[.*?\]\(data:image\/.*?\)'
+                        page_markdown = re.sub(img_pat, '', page_markdown)
+
+                    entry = {"url": current_url, "title": page_title,
+                             "content": page_markdown}
+                    entry_ = CrawlEntry(**entry)
+                    new_entries.append(entry_)
 
                     # Extract outbound links for the crawler frontier
                     for link in soup.find_all('a', href=True):
                         absolute_link = urljoin(current_url, link['href'])
+                        absolute_link = urlparse(absolute_link)
+                        absolute_link = absolute_link._replace(query="", fragment="")
+                        absolute_link = urlunparse(absolute_link)
 
                         # 5. Update the Frontier
                         if absolute_link.startswith('http') and absolute_link not in self.visited:
@@ -71,6 +95,8 @@ class WebpageToMarkdownCrawler:
 
             time.sleep(1)
             pages_crawled += 1
+        self.data_store.extend(new_entries)
+        return new_entries
 
 
 def encode_to_markdown_text(events: list[dict]) -> str:
