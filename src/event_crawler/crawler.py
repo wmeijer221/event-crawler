@@ -67,11 +67,12 @@ class WebpageToMarkdownCrawler:
 
                         # Convert the cleaned body HTML directly to Markdown
                         # This preserves links in the format: [Link Text](http://...)
-                        page_markdown = md(
-                            str(body), heading_style="ATX").strip()
+                        # page_markdown = md(
+                        #     str(body), heading_style="ATX").strip()
+                        # img_pat = r'!\[.*?\]\(data:image\/.*?\)'
+                        # page_markdown = re.sub(img_pat, '', page_markdown)
 
-                        img_pat = r'!\[.*?\]\(data:image\/.*?\)'
-                        page_markdown = re.sub(img_pat, '', page_markdown)
+                        page_markdown = body.get_text(separator="\n", strip=True)
 
                     entry = {"url": current_url, "title": page_title,
                              "content": page_markdown}
